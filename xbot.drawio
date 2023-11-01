@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-31T09:38:37.127Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="K0ZDA0Zm-W3f-Wl1TX1K" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-01T07:15:00.453Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="lx_JkTwOjL4vh7DkeTEX" version="22.0.8" type="github">
   <diagram name="Chat History" id="f_rxhetQorG0hHD9C17j">
-    <mxGraphModel dx="1756" dy="1697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2047" dy="1849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,7 +31,7 @@
           <mxGeometry y="182" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="uxHZfJqhnMFODpJpr4_Y-49" value="chatConversation" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;swimlaneLine=1;" parent="1" vertex="1">
-          <mxGeometry x="-280" y="-830" width="240" height="156" as="geometry">
+          <mxGeometry x="-280" y="-830" width="240" height="182" as="geometry">
             <mxRectangle x="270" y="-360" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -49,6 +49,9 @@
         </mxCell>
         <mxCell id="uxHZfJqhnMFODpJpr4_Y-55" value="+ isDeleted: boolean (Soft Delete)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;swimlaneLine=1;" parent="uxHZfJqhnMFODpJpr4_Y-49" vertex="1">
           <mxGeometry y="130" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7p9TcKajQnI9MsIjtAsc-67" value="+ chatList: ChatList (Soft Delete)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;swimlaneLine=1;" vertex="1" parent="uxHZfJqhnMFODpJpr4_Y-49">
+          <mxGeometry y="156" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="7p9TcKajQnI9MsIjtAsc-10" value="chatMessage" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;swimlaneLine=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="-830" width="240" height="182" as="geometry">
@@ -139,7 +142,7 @@
         <mxCell id="7p9TcKajQnI9MsIjtAsc-33" value="Login / &lt;br&gt;Signup" style="whiteSpace=wrap;html=1;aspect=fixed;swimlaneLine=1;" vertex="1" parent="1">
           <mxGeometry x="-570" y="-410" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="7p9TcKajQnI9MsIjtAsc-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;entryX=0.535;entryY=1.024;entryDx=0;entryDy=0;entryPerimeter=0;swimlaneLine=1;" edge="1" parent="1" source="7p9TcKajQnI9MsIjtAsc-36" target="uxHZfJqhnMFODpJpr4_Y-55">
+        <mxCell id="7p9TcKajQnI9MsIjtAsc-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;entryX=0.471;entryY=1.095;entryDx=0;entryDy=0;entryPerimeter=0;swimlaneLine=1;" edge="1" parent="1" source="7p9TcKajQnI9MsIjtAsc-36" target="7p9TcKajQnI9MsIjtAsc-67">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-180" y="-630" as="targetPoint" />
           </mxGeometry>
@@ -196,8 +199,25 @@
         <mxCell id="7p9TcKajQnI9MsIjtAsc-58" value="+ isDeleted: boolean (Soft Delete)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;swimlaneLine=1;" vertex="1" parent="7p9TcKajQnI9MsIjtAsc-53">
           <mxGeometry y="130" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="7p9TcKajQnI9MsIjtAsc-59" value="+ chatList: boolean (Soft Delete)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;swimlaneLine=1;" vertex="1" parent="7p9TcKajQnI9MsIjtAsc-53">
+        <mxCell id="7p9TcKajQnI9MsIjtAsc-59" value="+ chatList: ChatList (Soft Delete)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;swimlaneLine=1;" vertex="1" parent="7p9TcKajQnI9MsIjtAsc-53">
           <mxGeometry y="156" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7p9TcKajQnI9MsIjtAsc-60" value="chatMessage" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;swimlaneLine=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="-1126" width="240" height="130" as="geometry">
+            <mxRectangle x="270" y="-360" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7p9TcKajQnI9MsIjtAsc-63" value="+ userName:&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;swimlaneLine=1;" vertex="1" parent="7p9TcKajQnI9MsIjtAsc-60">
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7p9TcKajQnI9MsIjtAsc-64" value="+ content: string (Input)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;swimlaneLine=1;" vertex="1" parent="7p9TcKajQnI9MsIjtAsc-60">
+          <mxGeometry y="52" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7p9TcKajQnI9MsIjtAsc-65" value="+ timestamp: time" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;swimlaneLine=1;" vertex="1" parent="7p9TcKajQnI9MsIjtAsc-60">
+          <mxGeometry y="78" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7p9TcKajQnI9MsIjtAsc-66" value="+ messageType: string&amp;nbsp; (Agile / Non-agile)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;swimlaneLine=1;" vertex="1" parent="7p9TcKajQnI9MsIjtAsc-60">
+          <mxGeometry y="104" width="240" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
