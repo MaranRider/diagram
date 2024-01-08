@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-08T08:09:36.483Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="S2rmASS85a6IbNYVcFpI" version="22.1.17" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-01-08T08:31:34.601Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="RF3kvEwtrt7uvt79bPEq" version="22.1.17" type="github" pages="2">
   <diagram name="Page-1" id="U_0ZKhZKg9BWXdw7yjmI">
     <mxGraphModel dx="1195" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -48,7 +48,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="08f_1_w6AAf8eFsHSPma" name="Page-2">
-    <mxGraphModel dx="2049" dy="1054" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -123,11 +123,17 @@
         <mxCell id="k7gkYF3iUlxArdZOOYtG-15" value="Client" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="100" y="439" width="70" height="21" as="geometry" />
         </mxCell>
-        <mxCell id="k7gkYF3iUlxArdZOOYtG-16" value="Node server" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="k7gkYF3iUlxArdZOOYtG-16" value="Node.js Server" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="538.5" y="439" width="86.5" height="21" as="geometry" />
         </mxCell>
-        <mxCell id="k7gkYF3iUlxArdZOOYtG-17" value="Node Server Authendication" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="310" y="380" width="120" height="30" as="geometry" />
+        <mxCell id="k7gkYF3iUlxArdZOOYtG-17" value="JWT token authentication with Node.js" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="380" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sHol5MAE8Nxq11vzAvet-1" value="&lt;div style=&quot;font-size: 7px;&quot;&gt;User&amp;nbsp; Login&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacing=2;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="110" y="560" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sHol5MAE8Nxq11vzAvet-2" value="&lt;div style=&quot;font-size: 7px;&quot;&gt;Access data&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacing=2;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="110" y="690" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
