@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-22T17:19:23.876Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="PD42aE_k60Ntttv4Cw8I" version="24.2.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-04-22T17:31:35.547Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="O7pYgEQ_5JmsYZZj1O9i" version="24.2.7" type="github" pages="3">
   <diagram name="Chat History" id="f_rxhetQorG0hHD9C17j">
     <mxGraphModel dx="3668" dy="2692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -401,7 +401,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="V9hjiLwkMKeFgw1dchl6" name="Page-3">
-    <mxGraphModel dx="819" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -410,7 +410,7 @@
             <mxPoint x="150" y="722" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GUf0t9AQpDQrQoz9TDFl-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GUf0t9AQpDQrQoz9TDFl-1" value="Client" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GUf0t9AQpDQrQoz9TDFl-4" value="Client" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -421,19 +421,64 @@
             <mxPoint x="730" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GUf0t9AQpDQrQoz9TDFl-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GUf0t9AQpDQrQoz9TDFl-5" value="Server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GUf0t9AQpDQrQoz9TDFl-6" value="Server" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="700" y="90" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GUf0t9AQpDQrQoz9TDFl-9" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;POST&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&amp;nbsp;Properties" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="370" y="270" width="60" height="30" as="geometry" />
+        <mxCell id="GUf0t9AQpDQrQoz9TDFl-9" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;POST: &lt;/font&gt;/writeprop/:username&lt;/b&gt;&lt;br&gt;&lt;/span&gt;Body:&amp;nbsp; Properties details" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="335" y="246" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GUf0t9AQpDQrQoz9TDFl-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="154" y="320" as="sourcePoint" />
-            <mxPoint x="724" y="320" as="targetPoint" />
+            <mxPoint x="154" y="286" as="sourcePoint" />
+            <mxPoint x="724" y="286" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GUf0t9AQpDQrQoz9TDFl-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="315" as="sourcePoint" />
+            <mxPoint x="160" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GUf0t9AQpDQrQoz9TDFl-13" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;POST: &lt;/font&gt;&lt;/b&gt;&lt;b&gt;/uploadFile/:username/:actionTimeStamp&lt;/b&gt;&lt;br&gt;&lt;/span&gt;Form Data: Required Files" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="281" y="440" width="289" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GUf0t9AQpDQrQoz9TDFl-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="155" y="446" as="sourcePoint" />
+            <mxPoint x="725" y="446" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GUf0t9AQpDQrQoz9TDFl-15" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;Res:&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;&quot;&gt;currentTimeStamp&lt;br&gt;Action: Server will create a new folder using current timestamp and the property file will be stored in that folder&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="263" y="340" width="325" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GUf0t9AQpDQrQoz9TDFl-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="476" as="sourcePoint" />
+            <mxPoint x="160" y="476" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GUf0t9AQpDQrQoz9TDFl-17" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;Res:&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;&quot;&gt;Success Message&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="335" y="486" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GUf0t9AQpDQrQoz9TDFl-19" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;Res:&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;&quot;&gt;Reading the output file and send the details to the client&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="309" y="635" width="233" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GUf0t9AQpDQrQoz9TDFl-20" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;GET: &lt;/font&gt;&lt;/b&gt;&lt;b&gt;/runCommand/:username/:actionTimeStamp&lt;/b&gt;&lt;br&gt;&lt;/span&gt;Trigging the run" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="257" y="555" width="337" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GUf0t9AQpDQrQoz9TDFl-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="157" y="595" as="sourcePoint" />
+            <mxPoint x="727" y="595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GUf0t9AQpDQrQoz9TDFl-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="722" y="625" as="sourcePoint" />
+            <mxPoint x="162" y="625" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
